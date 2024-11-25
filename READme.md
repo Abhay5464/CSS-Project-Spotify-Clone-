@@ -5,13 +5,13 @@ A static clone of the Spotify web player interface created for practicing <b>HTM
 1. <b>Sidebar Navigation</b>: Includes links for Home, Search, and Your Library.
 2. <b>Button Design</b>: Styled buttons for "Create Playlist," "Browse Podcasts," "Explore Premium," and "Install App."
 3. <b>Section Layout</b>:<br/>
-&nbsp;&nbsp; a. "Recently Played" section with visually appealing content cards.
+&nbsp;&nbsp; a. "Recently Played" section with visually appealing content cards.<br/>
 &nbsp;&nbsp; b. "Trending Now Near You" section for showcasing placeholder items.
 4. <b>Media Player Bar</b>: A custom footer mimicking Spotify's playback bar design.
 
 # Technologies Used
-<b>HTML</b>: Used to structure the layout and components of the web page.
-<b>HTML</b>: Used to style the elements, including layout, colors, and typography.
+<b>HTML</b>: Used to structure the layout and components of the web page.<br/>
+<b>CSS</b>: Used to style the elements, including layout, colors, and typography.
 
 # Purpose
 This project was built solely for <b>HTML</b> and <b>CSS</b> practice. The buttons and links are non-functional and intended only for visual representation.

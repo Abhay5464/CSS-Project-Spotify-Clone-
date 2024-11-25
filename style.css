@@ -218,14 +218,39 @@ a {
 
 .album {
     width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.album-img {
+    display: flex;
+    height: 3.5rem;
+}
+
+.album-option {
+    display: flex;
+    font-size: 0.8rem;
+    flex-direction: column;
+    line-height: 1.5rem;
+    padding: 1rem;
+    opacity: 0.5;
+}
+
+.album-option:hover {
+    opacity: 1;
+}
+
+.album-icons {
+    display: flex;
+}
+
+.album-icons img {
+    margin-left: 0.5rem;
+    height: 1.5rem;    
 }
 
 .player {
     width: 50%;
-}
-
-.control {
-    width: 25%;
 }
 
 .player-controls {
@@ -268,7 +293,42 @@ a {
     appearance: none;
     height: 1rem;
     width: 1rem;
-    background: #1bd760;
+    background-color: #1bd760;
     border-radius: 50%;
     margin-top: -6px;
+}
+
+.control {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-icon {
+    height: 2rem;
+    opacity: 0.7;
+    padding: 0.5rem;
+}
+
+.music-bar {
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    margin-right: 1.5rem;
+}
+
+.music-bar::-webkit-slider-runnable-track {
+    background: #ddd;
+    border-radius: 100px;
+    height: 0.3rem;
+}
+
+.music-bar::-webkit-slider-thumb {
+    appearance: none;
+    height: 0.7rem;
+    width: 0.7rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -4px;
 }
